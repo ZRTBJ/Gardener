@@ -1,0 +1,7 @@
+{
+  "vegetable": [
+    { "name": "Lettuce", "image": "../assets/lettuce.png" },
+    { "name": "Beans", "image": "../assets/beans.png" },
+    { "name": "leek", "image": "../assets/leek.png" }
+  ]
+}
