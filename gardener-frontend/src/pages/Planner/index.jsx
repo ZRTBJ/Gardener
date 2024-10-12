@@ -56,6 +56,32 @@ export default function Planner() {
     setStageScale(stageScale / 1.2);
   };
 
+  const handleNewFile = () => {
+    setShapes([]);
+    historyShape = [[]];
+    lastedIndex = 0;
+    historyStep = 0;
+  };
+
+  const handleSave = () => {
+    // const uri = stageRef.current.toDataURL({ pixelRatio: 5 });
+    const uri = stageRef.current.toDataURL({
+      mimeType: "image/png",
+      pixelRatio: 5,
+    });
+    console.log(uri);
+
+    var link = document.createElement("a");
+    link.download = "untitled.png";
+    link.href = uri;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  const handlePrint = () => {};
+  const handleSendTelegram = () => {};
+
   return (
     <div className="flex flex-col mx-auto p-4 space-y-2">
       <div className="flex items-center justify-between p-4 border-b-2">
@@ -167,13 +193,13 @@ export default function Planner() {
             </div>
             <div className="join p-1">
               <button type="icon" className="btn join-item bg-white m-4">
-                <img src="/eye.svg"></img>
+                <img src="/eye.svg" width={24} height={24}></img>
               </button>
               <button type="icon" className="btn join-item bg-white m-4">
-                <img src="/lock.svg"></img>
+                <img src="/lock.svg" width={24} height={24}></img>
               </button>
               <button type="icon" className="btn join-item bg-white m-4">
-                <img src="/outline.svg"></img>
+                <img src="/outline.svg" width={24} height={24}></img>
               </button>
             </div>
           </div>
@@ -240,16 +266,32 @@ export default function Planner() {
         </div>
         <div className="flex flex-col space-y-4">
           <div className="join join-vertical p-1">
-            <button type="icon" className="btn join-item bg-white">
+            <button
+              type="button"
+              className="btn join-item bg-white"
+              onClick={handleNewFile}
+            >
               <img src="/newfile.svg"></img>
             </button>
-            <button type="icon" className="btn join-item bg-white">
+            <button
+              type="button"
+              className="btn join-item bg-white"
+              onClick={handleSave}
+            >
               <img src="/save.svg"></img>
             </button>
-            <button type="icon" className="btn join-item bg-white">
+            <button
+              type="button"
+              className="btn join-item bg-white"
+              onClick={handlePrint}
+            >
               <img src="/print.svg"></img>
             </button>
-            <button type="icon" className="btn join-item bg-[#0A5436]">
+            <button
+              type="button"
+              className="btn join-item bg-[#0A5436]"
+              onClick={handleSendTelegram}
+            >
               <img src="/cursor.svg"></img>
             </button>
           </div>
