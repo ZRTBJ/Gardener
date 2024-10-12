@@ -196,6 +196,7 @@ export default function Planner() {
                 src: getImageSrc(material, item.imageSrc),
                 width: 31,
                 height: 31,
+                rotation: 0,
                 imgWidth: item.width,
                 imgHeight: item.height,
                 id: lastedIndex,

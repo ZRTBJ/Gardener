@@ -163,12 +163,13 @@ const Material = ({
     height: props.height,
     imgWidth: props.imgWidth,
     imgHeight: props.imgHeight,
+    rotation: props.rotation,
   };
 
   const [img] = useImage(shape.src);
   const shapeRef = useRef();
   const trRef = useRef();
-  const [rotation, setRotation] = useState(0);
+  // const [rotation, setRotation] = useState(0);
 
   useEffect(() => {
     if (isSelected) {
@@ -209,7 +210,7 @@ const Material = ({
         // offsetY={30 / stageScale}
         width={shape.width}
         height={shape.height}
-        rotation={rotation}
+        rotation={shape.rotation}
       >
         {/* <Image
           key={`img-${shape.id}`}
@@ -232,6 +233,7 @@ const Material = ({
         // offsetY={30 / stageScale}
         width={shape.width}
         height={shape.height}
+        rotation={shape.rotation}
         onClick={handleSelect}
         onTap={handleSelect}
         onDragMove={(e) => {
@@ -265,13 +267,14 @@ const Material = ({
           node.scaleX(1);
           node.scaleY(1);
 
-          setRotation(node.rotation());
+          // setRotation(node.rotation());
 
           handleChange(
             {
               ...shape,
               x: node.x(),
               y: node.y(),
+              rotation: node.rotation(),
               width: Math.max(5, node.width() * scaleX),
               height: Math.max(5, node.height() * scaleY),
             },
@@ -290,7 +293,7 @@ const Material = ({
           const wideWidth = node.width() * scaleX;
           const wideHeight = node.height() * scaleY;
 
-          setRotation(node.rotation());
+          // setRotation(node.rotation());
 
           console.log(wideWidth, wideHeight);
 
@@ -308,6 +311,7 @@ const Material = ({
               ...shape,
               x: node.x(),
               y: node.y(),
+              rotation: node.rotation(),
               // width: Math.max(5, node.width() * scaleX),
               // height: Math.max(5, node.height() * scaleY),
               width: Math.max(5, actualWidth),
