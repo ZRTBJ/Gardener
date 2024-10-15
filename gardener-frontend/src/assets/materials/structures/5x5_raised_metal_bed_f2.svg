@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+	.st0{fill:#838C92;stroke:#231F20;stroke-width:0.25;stroke-miterlimit:10;}
+	.st1{fill:#6A7277;stroke:#231F20;stroke-width:0.25;stroke-miterlimit:10;}
+	.st2{opacity:0.21;fill:#FFFFFF;}
+</style>
+  <g>
+    <rect x="26.082" y="26.433" transform="matrix(0, -1, 1, 0, -4.475288, 49.543633)" class="st0" width="21.909" height="2.343" style=""/>
+    <rect x="4.931" y="26.433" transform="matrix(0, -1, 1, 0, -25.763914, 28.42358)" class="st0" width="21.909" height="2.343" style=""/>
+    <rect x="1.804" y="21.992" class="st0" width="21.271" height="2.324" style=""/>
+    <rect x="0.131" y="21.47" class="st1" width="3.441" height="3.414" style=""/>
+    <rect x="21.402" y="21.47" class="st1" width="3.441" height="3.414" style=""/>
+    <rect x="1.804" y="0.652" class="st0" width="21.271" height="2.324" style=""/>
+    <rect x="0.131" y="0.13" class="st1" width="3.441" height="3.414" style=""/>
+    <rect x="21.402" y="0.13" class="st1" width="3.441" height="3.414" style=""/>
+    <rect x="3.621" y="1.458" class="st2" width="17.733" height="0.759" style=""/>
+    <rect x="3.621" y="22.798" class="st2" width="17.733" height="0.759" style=""/>
+    <rect x="6.971" y="27.198" transform="matrix(0, -1, 1, 0, -25.762623, 28.368565)" class="st2" width="17.831" height="0.765" style=""/>
+    <rect x="28.073" y="27.198" transform="matrix(0, -1, 1, 0, -4.494981, 49.467758)" class="st2" width="17.831" height="0.765" style=""/>
+  </g>
+</svg>

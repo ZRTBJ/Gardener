@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 42.1 40.3" style="enable-background:new 0 0 42.1 40.3;" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+	.st0{fill:none;stroke:#737476;stroke-width:1.5067;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#737476;stroke-width:1.5067;stroke-miterlimit:10;stroke-dasharray:4.1718,4.1718;}
+	.st2{fill:#9B9DA0;stroke:#010101;stroke-miterlimit:10;}
+	.st3{fill:#A3A5A8;stroke:#010101;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#7A7B7D;stroke-width:0.8568;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+  <g>
+    <g>
+      <g>
+        <path class="st0" d="M9.9,3.9c0.8,0,1.5,0.1,2.3,0.2"/>
+        <path class="st1" d="M16.3,4.8c13,3.3,23,14.3,24.8,27.9"/>
+        <path class="st0" d="M41.3,34.9c0.1,0.7,0.1,1.5,0.1,2.3"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <rect x="2.2" y="3.9" class="st2" width="3.4" height="32"/>
+        <circle class="st3" cx="3.9" cy="3.9" r="3.4"/>
+        <circle class="st3" cx="3.9" cy="36.4" r="3.4"/>
+      </g>
+      <line class="st4" x1="0.8" y1="8.5" x2="0.8" y2="31.7"/>
+    </g>
+  </g>
+</svg>

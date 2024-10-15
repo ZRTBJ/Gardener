@@ -148,8 +148,16 @@ export default function Planner() {
                 setMaterial(e.target.value);
               }}
             >
-              <option value={"house"}>Houses</option>
+              <option value={"animals"}>Animals</option>
+              <option value={"exotics"}>Exotics</option>
+              <option value={"flowers"}>Flowers</option>
+              <option value={"fruits"}>Fruits</option>
+              <option value={"herbs"}>Herbs</option>
+              <option value={"structures"}>Structures</option>
+              <option value={"terrain"}>Terrain</option>
+              <option value={"tropicals"}>Tropicals</option>
               <option value={"vegetable"}>Vegetables</option>
+              <option value={"woody"}>Wood Perennials</option>
             </select>
             <div className="text-black text-[10px] shadow-xl border-2 p-2">
               <div className="grid grid-cols-3 gap-2 place-items-center h-[487px] carousel carousel-vertical scroll-smooth overflow-y-auto">
@@ -159,7 +167,7 @@ export default function Planner() {
                       src={getImageSrc(material, item.imageSrc)}
                       // src={Beet}
                       alt={item.title}
-                      className="h-[60px]"
+                      className="h-[50px] w-max-[50px]"
                       draggable="true"
                       onDragStart={(e) => {
                         // dragUrl.current = e.target.src;
@@ -220,14 +228,14 @@ export default function Planner() {
                 x: pos.x / stageScale - 32 / stageScale,
                 y: pos.y / stageScale - 32 / stageScale,
                 src: getImageSrc(material, item.imageSrc),
-                width: 31,
-                height: 31,
+                width: item.width + 1,
+                height: item.height + 1,
                 rotation: 0,
                 imgWidth: item.width,
                 imgHeight: item.height,
                 id: lastedIndex,
                 title: item.title,
-                type: item.type,
+                type: material,
               };
 
               const newShapeList = shapes.concat([newShape]);

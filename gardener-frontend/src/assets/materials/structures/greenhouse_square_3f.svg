@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_2" x="0px" y="0px" viewBox="0 0 108 90" style="enable-background:new 0 0 108 108;" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+	.st0{fill:#A9ABAE;stroke:#A9ABAE;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#A9ABAE;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#A9ABAE;stroke-miterlimit:10;}
+	.st4{opacity:0.59;fill:#DFE4E2;}
+	.st5{fill:none;stroke:#A9ABAE;stroke-width:2;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#737577;stroke-width:2;stroke-miterlimit:10;}
+	.st7{fill:none;}
+</style>
+  <g>
+    <path class="st0" d="M 89.24 35.97 L 89.24 54.496 C 96.994 54.639 104.175 50.331 107.047 42.576 L 89.24 35.97 Z" style=""/>
+    <line class="st1" x1="88.809" y1="35.827" x2="107.621" y2="42.864" style=""/>
+    <line class="st2" x1="88.809" y1="35.827" x2="107.621" y2="42.864" style=""/>
+    <rect x="1.065" y="1.074" class="st4" width="88.175" height="88.175" style=""/>
+    <line class="st5" x1="1.065" y1="42.72" x2="89.24" y2="42.72" style=""/>
+    <line class="st2" x1="1.065" y1="42.72" x2="89.24" y2="42.72" style=""/>
+    <line class="st5" x1="31.079" y1="1.074" x2="31.079" y2="89.249" style=""/>
+    <line class="st5" x1="59.226" y1="1.074" x2="59.226" y2="89.249" style=""/>
+    <line class="st2" x1="31.079" y1="1.074" x2="31.079" y2="89.249" style=""/>
+    <line class="st2" x1="59.226" y1="1.074" x2="59.226" y2="89.249" style=""/>
+    <rect x="1.065" y="1.074" class="st6" width="88.175" height="88.175" style=""/>
+    <rect x="1.065" y="1.074" class="st2" width="88.175" height="88.175" style=""/>
+    <rect x="1.065" y="1.074" class="st7" width="88.175" height="88.175" style=""/>
+  </g>
+</svg>
